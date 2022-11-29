@@ -1,0 +1,175 @@
+#MyNavbar{
+    font-size: 18px;
+}
+
+#Mar{
+    color:black;
+    font-size: 16px; 
+    width: 100%;
+}
+
+img{
+    width:auto;
+    height: auto;
+}
+
+#contacty{
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+html{
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.campus_mainDiv{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.campus_mainDiv img{
+    width: 100%;
+    height: 250px;
+}
+
+.campus_mainDiv hr{
+    width: 100%
+}
+
+.campus_mainDiv h4, .campus_mainDiv p{
+    margin-left: 20px;
+}
+
+#campus{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#video{
+    margin-bottom: 50px;
+}
+
+.achievements_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.achievements_head i{
+    float: right;
+}
+
+.achievements_head span{
+    margin-right: 10px;
+}
+
+.new_li{
+    margin-top: 13px;
+    text-align: justify;
+}
+
+.new_li h4{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.new_li img{
+    border-radius: 25px;
+}
+
+.new_li p{
+    margin-top: 10px;
+}
+
+
+.modal-body{
+    text-align: center;
+}
+
+.alumni{
+    cursor: pointer
+}
+
+.alumni{
+    margin-bottom: 10px;
+}
+
+.modal-body{
+    text-align: center;
+}
+
+.alumni{
+    cursor: pointer;
+}
+
+.alumni hr{
+    margin-bottom: 10px;
+}
+
+.modal-content{
+    margin-top: 100px;
+}
+
+.img-modal{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p_modal{
+    margin-top: 10px;
+}
+
+#MyNavbar{
+    overflow: hidden; 
+    background-color: #333;
+    margin-top: 30px;
+}
+
+#MyNavbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+
+  }
+
+  .content {
+    padding: 16px;
+    width: 100%;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+h10{
+      color: black;
+      font-family: 'Lobster', cursive;
+      font-size: 30px;
+  }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess The Word Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="login_style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Kalam&family=Pacifico&family=Patrick+Hand&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="My Logo - Hatchful (1).png">
+    </head>
+
+    <body>
+    <center>
+            <div id="main" class="container">
+
+                <div id="content">
+                <h1>Guess The Word Game</h1>
+
+                <label>It's time to have fun!</label>
+                <hr style="height:2px; width: 90%;border-width:0;color:gray;background-color:gray;">
+                <br><br>
+                <div class="user">
+                    <img src="icons8-user-30.png" class="user_img">
+                    <input class="input" id="user1" type="text" placeholder="Username for 1st Player"></span>
+                </div>
+                <br><br>
+                <div class="user">
+                    <img src="icons8-user-30.png" class="user_img">
+                    <input class="input" id="user2" type="text" placeholder="Username for 2nd Player"></span>
+                </div>
+
+                <br>
+                <div class="container">
+                    <div class="center">
+                      <button class="btn" onclick="AddUser()">
+                        <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                          <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                        </svg>
+                        <span>SUBMIT</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+    </center>   
+    <script src="login_main.js"></script>
+    </body>
+</html>

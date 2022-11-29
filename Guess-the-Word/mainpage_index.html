@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Math-o-Magic</title>
+        <link rel="stylesheet" href="mainpage_style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="My Logo - Hatchful (1).png">
+    </head>
+
+    <body style="background-image: URL(desktop-backgrounds-nature-26930-1920x1080.png); background-repeat: no-repeat;">
+        <div class="container" style="text-align: center; height: fit-content; z-index: 0.5;" id="score">
+            <h3>Scores:</h3>
+            <h4 id="player1_score"></h4>
+            <h4 id="player2_score"></h4>
+        </div>
+
+        <div class="container">
+            <center>
+                <h1 style="color: white;">Guess The Word</h1>
+                <hr>
+                <h2 id="player_question" style="color: white;">Question Turn:</h2>
+                <h2 id="player_answer" style="color: white;">Answer Turn:</h2>
+                <br>
+                
+                <div id="main">
+                <div id="output" class="col-lg-5">
+                    <h4 id="ques" style="font-weight: bold;">Question displayed here</h4>
+                    <br>
+                    <label id="Question">Answer: <span><input type="text" id="Answer" class="form-control" placeholder="Enter Answer Here"></span></label>
+                    <br><br>
+                    <button class="btn btn-info" id="Check" onclick="Check_A()">Check</button>
+                </div>
+                
+
+                <div class="vl"></div>
+
+                <div id="output_r">
+                <center>
+                <div id="Number1" class="container">
+                    <img id="user-i" class="img-responsive" src="icons8-words-64.png"> <span>
+                       <label id="label" style="text-align: center;">Enter your word here:</label>
+                    <input type="text" id="No1" placeholder="Enter your word here" style="margin-bottom: 5px; padding-bottom:1px;"> </span>
+                </div>
+                <br><br>
+                <button id="send" class="btn btn-primary" onclick="Send()"><img src="icons8-email-send-30.png"><label id="temp">Send</label><img src="icons8-email-send-30 - Copy.png"></button>
+            </center>
+            </div>
+                
+            </div>
+            </center>
+        </div>
+    <script src="mainpage_main.js"></script>
+    </body>
+</html>
